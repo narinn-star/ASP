@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_20203179leenarin.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 600px;
+        }
+        .auto-style2 {
+            height: 50px;
+            width: 800px;
+        }
+        .auto-style3 {
+            height: 500px;
+            width: 700px;
+        }
+        .auto-style4 {
+            height: 500px;
+            width: 100px;
+        }
+        .auto-style5 {
+            height: 50px;
+            width: 800px;
+            text-align: center;
+        }
+        .auto-style6 {
+            color: rgb(102, 102, 102);
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2" colspan="2">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/WebII_Newlogo.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4">
+                <asp:TreeView ID="TreeView1" runat="server">
+                    <Nodes>
+                        <asp:TreeNode Text="Home" Value="Home"></asp:TreeNode>
+                        <asp:TreeNode Text="About Me" Value="About Me"></asp:TreeNode>
+                    </Nodes>
+                </asp:TreeView>
+            </td>
+            <td class="auto-style3">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5" colspan="2"><span class="auto-style6">CopyRight </span><span class="auto-style6" style="font-family: Tahoma; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ⓒ 2019 </span><span class="auto-style6">이나린 All rights Reserved.</span></td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
