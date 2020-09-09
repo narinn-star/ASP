@@ -49,8 +49,8 @@
             <td class="auto-style4">
                 <asp:TreeView ID="TreeView1" runat="server">
                     <Nodes>
-                        <asp:TreeNode Text="Home" Value="Home"></asp:TreeNode>
-                        <asp:TreeNode Text="About Me" Value="About Me"></asp:TreeNode>
+                        <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:TreeNode>
+                        <asp:TreeNode Text="About Me" Value="About Me" NavigateUrl="~/AboutMe.aspx"></asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
             </td>
