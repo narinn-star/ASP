@@ -51,6 +51,11 @@
                     <Nodes>
                         <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:TreeNode>
                         <asp:TreeNode Text="About Me" Value="About Me" NavigateUrl="~/AboutMe.aspx"></asp:TreeNode>
+                        <asp:TreeNode Text="Chapter4" Value="Chapter4">
+                            <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-1-1.aspx" Text="Pro4-1-1" Value="Pro4-1-1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-2-1.aspx" Text="Pro4-2-1" Value="Pro4-2-1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-4-1.aspx" Text="Pro4-4-1" Value="Pro4-4-1"></asp:TreeNode>
+                        </asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
             </td>
