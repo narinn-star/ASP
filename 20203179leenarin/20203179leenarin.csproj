@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Chapter4\Assignment_1.aspx" />
+    <Content Include="Chapter4\Assignment_2.aspx" />
+    <Content Include="Chapter4\Assignment_3.aspx" />
+    <Content Include="Chapter4\Assignment_4.aspx" />
     <Content Include="Chapter4\Pro4-1-1.aspx" />
     <Content Include="Chapter4\Pro4-2-1.aspx" />
     <Content Include="Chapter4\Pro4-4-1.aspx" />
@@ -85,6 +88,27 @@
     </Compile>
     <Compile Include="Chapter4\Assignment_1.aspx.designer.cs">
       <DependentUpon>Assignment_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_2.aspx.cs">
+      <DependentUpon>Assignment_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_2.aspx.designer.cs">
+      <DependentUpon>Assignment_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_3.aspx.cs">
+      <DependentUpon>Assignment_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_3.aspx.designer.cs">
+      <DependentUpon>Assignment_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_4.aspx.cs">
+      <DependentUpon>Assignment_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter4\Assignment_4.aspx.designer.cs">
+      <DependentUpon>Assignment_4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chapter4\Pro4-1-1.aspx.cs">
       <DependentUpon>Pro4-1-1.aspx</DependentUpon>
