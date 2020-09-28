@@ -69,6 +69,14 @@
                             <asp:TreeNode NavigateUrl="~/Chapter5/Assignment_2.aspx" Text="Assignment_2" Value="Assignment_2"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter5/Assignment_3.aspx" Text="Assignment_3" Value="Assignment_3"></asp:TreeNode>
                         </asp:TreeNode>
+                        <asp:TreeNode Text="Chapter6" Value="Chapter6">
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-2-1.aspx" Text="Pro6-2-1" Value="Pro6-2-1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-3-1.aspx" Text="Pro6-3-1" Value="Pro6-3-1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-3-2.aspx" Text="Pro6-3-2" Value="Pro6-3-2"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Assignment_1.aspx" Text="Assignment_1" Value="Assignment_1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Assignment_2.aspx" Text="Assignment_2" Value="Assignment_2"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6/Assignment_3.aspx" Text="Assignment_3" Value="Assignment_3"></asp:TreeNode>
+                        </asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
             </td>
