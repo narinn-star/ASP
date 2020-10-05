@@ -77,6 +77,10 @@
                             <asp:TreeNode NavigateUrl="~/Chapter6/Assignment_2.aspx" Text="Assignment_2" Value="Assignment_2"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter6/Assignment_3.aspx" Text="Assignment_3" Value="Assignment_3"></asp:TreeNode>
                         </asp:TreeNode>
+                        <asp:TreeNode Text="Chapter6_심화" Value="Chapter6_심화">
+                            <asp:TreeNode NavigateUrl="~/Chapter6_심화/Pro6-1-1.aspx" Text="Pro6-1-1" Value="Pro6-1-1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter6_심화/실전연습문제.aspx" Text="실전연습문제" Value="실전연습문제"></asp:TreeNode>
+                        </asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
             </td>
