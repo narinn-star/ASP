@@ -62,6 +62,7 @@
                 </asp:Menu>
             </td>
             <td class="auto-style6">
+            &nbsp;&nbsp;
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             </td>
