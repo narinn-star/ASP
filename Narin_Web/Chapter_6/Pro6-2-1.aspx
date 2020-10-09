@@ -34,7 +34,7 @@
         <asp:Label ID="Label1" runat="server"></asp:Label>
         학점</p>
     <p class="auto-style11">
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
     </p>
     <p>
         &nbsp;</p>

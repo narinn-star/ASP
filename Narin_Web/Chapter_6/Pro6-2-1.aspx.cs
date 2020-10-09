@@ -16,6 +16,23 @@ namespace Narin_Web.Chapter_6
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string a, b;
+            int sum = 0;
+
+            a = DropDownList1.SelectedItem.Text;
+            b = DropDownList1.SelectedItem.Value;
+
+            ListBox1.Items.Add(new ListItem(a, b));
+            ListBox2.Items.Add(new ListItem(b, a));
+
+            foreach (ListItem item in ListBox1.Items)
+                sum += int.Parse(item.Value);
+
+            Label1.Text = sum.ToString();
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
 
         }
     }

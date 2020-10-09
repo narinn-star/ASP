@@ -45,10 +45,12 @@
             <td class="auto-style5">
                 <asp:Menu ID="Menu1" runat="server">
                     <Items>
-                        <asp:MenuItem Text="Home" Value="새 항목"></asp:MenuItem>
+                        <asp:MenuItem Text="Home" Value="새 항목" NavigateUrl="~/Home.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="AboutMe" Value="AboutMe"></asp:MenuItem>
                         <asp:MenuItem Text="Pro_" Value="Pro_">
-                            <asp:MenuItem Text="Chapter_4" Value="Chapter_4"></asp:MenuItem>
+                            <asp:MenuItem Text="Chapter_4" Value="Chapter_4">
+                                <asp:MenuItem NavigateUrl="~/Chapter_4/Pro4-4-1.aspx" Text="Pro4-4-1" Value="Pro4-4-1"></asp:MenuItem>
+                            </asp:MenuItem>
                             <asp:MenuItem Text="Chapter_5" Value="Chapter_5"></asp:MenuItem>
                             <asp:MenuItem Text="Chapter_6" Value="Chapter_6"></asp:MenuItem>
                         </asp:MenuItem>
