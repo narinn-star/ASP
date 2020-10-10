@@ -49,7 +49,13 @@ namespace Narin_Web.Chapter_6
                 RadioButtonList1.SelectedItem.Selected = false;
 
             if (CheckBoxList1.SelectedIndex > -1)
-                CheckBoxList1.SelectedItem.Selected = false;
+            {
+                foreach(ListItem item in CheckBoxList1.Items)
+                {
+                    if (item.Selected)
+                        item.Selected = false;
+                }
+            }
         }
     }
 }

@@ -73,6 +73,8 @@
     <Content Include="Chapter_6\Pro6-2-1.aspx" />
     <Content Include="Chapter_6\Pro6-3-1.aspx" />
     <Content Include="Chapter_6\Pro6-3-2.aspx" />
+    <Content Include="Chapter_6심화\Pro6-1-1.aspx" />
+    <Content Include="Chapter_6심화\실전연습문제.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="IMAGE\WebII_Newlogo.jpg" />
     <Content Include="Chapter_4\Pro4-4-1.aspx" />
@@ -127,6 +129,20 @@
     </Compile>
     <Compile Include="Chapter_6\Pro6-3-2.aspx.designer.cs">
       <DependentUpon>Pro6-3-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter_6심화\Pro6-1-1.aspx.cs">
+      <DependentUpon>Pro6-1-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter_6심화\Pro6-1-1.aspx.designer.cs">
+      <DependentUpon>Pro6-1-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter_6심화\실전연습문제.aspx.cs">
+      <DependentUpon>실전연습문제.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter_6심화\실전연습문제.aspx.designer.cs">
+      <DependentUpon>실전연습문제.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
