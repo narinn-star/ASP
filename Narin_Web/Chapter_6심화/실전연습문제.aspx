@@ -57,23 +57,33 @@
         <table class="auto-style20">
             <tr>
                 <td class="auto-style21" rowspan="3">
-                    <asp:ListBox ID="ListBox2" runat="server" AutoPostBack="True" Height="302px" Width="256px"></asp:ListBox>
+                    <asp:ListBox ID="ListBox2" runat="server" AutoPostBack="True" Height="302px" Width="256px" OnSelectedIndexChanged="ListBox2_SelectedIndexChanged">
+                        <asp:ListItem>주문 메뉴입니다</asp:ListItem>
+                        <asp:ListItem Value="3000">짜장면</asp:ListItem>
+                        <asp:ListItem Value="25000">탕수육(대)</asp:ListItem>
+                        <asp:ListItem Value="20000">탕수육(중)</asp:ListItem>
+                        <asp:ListItem Value="15000">탕수육(소)</asp:ListItem>
+                        <asp:ListItem Value="3500">짬뽕</asp:ListItem>
+                        <asp:ListItem Value="30000">란자완스</asp:ListItem>
+                    </asp:ListBox>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
                 <td rowspan="3">
-                    <asp:ListBox ID="ListBox3" runat="server" AutoPostBack="True" Height="302px" Width="256px"></asp:ListBox>
+                    <asp:ListBox ID="ListBox3" runat="server" AutoPostBack="True" Height="302px" Width="256px">
+                        <asp:ListItem>주문 사항입니다</asp:ListItem>
+                    </asp:ListBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">
                     <asp:Label ID="Label1" runat="server" Text="가 격"></asp:Label>
                     <br />
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server">1</asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <br />
                     <asp:Label ID="Label2" runat="server" Text="수 량"></asp:Label>
                     <br />
-                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server">1</asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -85,12 +95,11 @@
     <p>
     </p>
     <p>
-        &nbsp;&nbsp; 총수량 : &nbsp;<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        &nbsp;&nbsp; 총수량 : &nbsp;<asp:TextBox ID="TextBox4" runat="server">0</asp:TextBox>
 &nbsp;&nbsp; 총가격 :
-        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="초기화" />
-    </p>
+        <asp:TextBox ID="TextBox5" runat="server">0</asp:TextBox>
+&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="초기화" />
+    &nbsp;</p>
     <p>
     </p>
     <p>

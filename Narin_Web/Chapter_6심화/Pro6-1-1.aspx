@@ -55,13 +55,16 @@
             width: 472px;
             text-align: center;
         }
+        .auto-style18 {
+            color: #FF0000;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
         <br />
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Text="주문 취소" />
-        <asp:Button ID="Button2" runat="server" CssClass="auto-style14" Text="Clear" />
+        <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Text="주문 취소" OnClick="Button1_Click" />
+        <asp:Button ID="Button2" runat="server" CssClass="auto-style14" Text="Clear" OnClick="Button2_Click" />
     </p>
     <div class="auto-style11">
         <strong>MENU<br />
@@ -101,7 +104,7 @@
     <table class="auto-style16">
         <tr>
             <td class="auto-style17">
-                <asp:Label ID="Label1" runat="server"></asp:Label>
+                <asp:Label ID="Label1" runat="server" CssClass="auto-style18"></asp:Label>
             </td>
             <td>중복주문 경고표시</td>
         </tr>
