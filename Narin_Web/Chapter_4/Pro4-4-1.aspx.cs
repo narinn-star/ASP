@@ -11,9 +11,9 @@ namespace Narin_Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack) //false
+            if (IsPostBack) // false
                 Label1.Text += "PostBack 되셨군용!<br>";
-            else //true
+            else // true
                 TextBox1.Text += "처음으로 오셧군용!";
         }
 
