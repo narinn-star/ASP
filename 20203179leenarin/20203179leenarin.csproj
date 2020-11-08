@@ -90,6 +90,11 @@
     <Content Include="Chapter7\Pro7-4-1.aspx" />
     <Content Include="Chapter7\Pro7-5-1.aspx" />
     <Content Include="Chapter7\Pro7-6-1.aspx" />
+    <Content Include="Chapter8\Pro8-2-1.aspx" />
+    <Content Include="Chapter8\Pro8-2-2.aspx" />
+    <Content Include="Chapter8\SelectbyMileage.aspx" />
+    <Content Include="Chapter8\ShowAllRecords.aspx" />
+    <Content Include="Chapter8\SQL커맨드수행.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Image\WebII_Newlogo.jpg" />
@@ -251,6 +256,41 @@
     </Compile>
     <Compile Include="Chapter7\Pro7-6-1.aspx.designer.cs">
       <DependentUpon>Pro7-6-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\Pro8-2-1.aspx.cs">
+      <DependentUpon>Pro8-2-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\Pro8-2-1.aspx.designer.cs">
+      <DependentUpon>Pro8-2-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\Pro8-2-2.aspx.cs">
+      <DependentUpon>Pro8-2-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\Pro8-2-2.aspx.designer.cs">
+      <DependentUpon>Pro8-2-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\SelectbyMileage.aspx.cs">
+      <DependentUpon>SelectbyMileage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\SelectbyMileage.aspx.designer.cs">
+      <DependentUpon>SelectbyMileage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\ShowAllRecords.aspx.cs">
+      <DependentUpon>ShowAllRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\ShowAllRecords.aspx.designer.cs">
+      <DependentUpon>ShowAllRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\SQL커맨드수행.aspx.cs">
+      <DependentUpon>SQL커맨드수행.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter8\SQL커맨드수행.aspx.designer.cs">
+      <DependentUpon>SQL커맨드수행.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
