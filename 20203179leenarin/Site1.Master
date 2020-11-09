@@ -93,6 +93,10 @@
                         <asp:TreeNode Text="Chapter8" Value="Chapter8">
                             <asp:TreeNode NavigateUrl="~/Chapter8/Pro8-2-1.aspx" Text="Pro8-2-1" Value="Pro8-2-1"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter8/Pro8-2-2.aspx" Text="Pro8-2-2" Value="Pro8-2-2"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter8/Assignment_1.aspx" Text="Assignment_1" Value="Assignment_1"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter8/Assignment_2.aspx" Text="Assignment_2" Value="Assignment_2"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter8/Assignment_3.aspx" Text="Assignment_3" Value="Assignment_3"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Chapter8/Assignment_4.aspx" Text="Assignment_4" Value="Assignment_4"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter8/SelectbyMileage.aspx" Text="SelectbyMileage" Value="SelectbyMileage"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter8/SQL커맨드수행.aspx" Text="SQL커맨드수행" Value="SQL커맨드수행"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Chapter8/ShowAllRecords.aspx" Text="ShowAllRecords" Value="ShowAllRecords"></asp:TreeNode>
