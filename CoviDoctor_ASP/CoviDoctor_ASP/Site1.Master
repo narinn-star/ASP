@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CoviDoctor_ASP.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style5 {
+            height: 120px;
+            text-align: center;
+        }
+        .auto-style6 {
+            height: 190px;
+            width: 300px;
+            text-align: left;
+            background-color: #FFEFFF;
+        }
+        .auto-style8 {
+            width: 100%;
+            height: 90px;
+        }
+        .auto-style7 {
+            width: 50px;
+            text-align: right;
+        }
+        .auto-style9 {
+            width: 190px;
+        }
+        .auto-style3 {
+            height: 500px;
+            background-color: #FFF7FF;
+        }
+        .auto-style4 {
+            height: 500px;
+            width: 300px;
+            background-color: #FFEFFF;
+        }
+        .auto-style2 {
+            height: 50px;
+        }
+        .auto-style10 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5" colspan="2">
+                    <asp:Image ID="Image1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6">
+&nbsp;
+                    <br />
+                    <table class="auto-style8">
+                        <tr>
+                            <td class="auto-style7">ID</td>
+                            <td class="auto-style9">
+                                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                            </td>
+                            <td rowspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style7">P/W</td>
+                            <td class="auto-style9">
+                                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                            </td>
+                        </tr>
+                    </table>
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="42px" ImageUrl="~/IMAGE/sign up.jpg" Width="140px" OnClick="ImageButton1_Click" />
+&nbsp;
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="42px" ImageUrl="~/IMAGE/Log-in.jpg" Width="140px" />
+                </td>
+                <td class="auto-style3" rowspan="2">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">&nbsp;&nbsp;&nbsp;
+                    <div>
+                        <asp:TreeView ID="TreeView1" runat="server" CssClass="auto-style10" ForeColor="Black" Height="87px">
+                            <Nodes>
+                                <asp:TreeNode NavigateUrl="~/general.aspx" Text="일반게시판" Value="일반게시판"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/information.aspx" Text="정보게시판" Value="정보게시판"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/sale.aspx" Text="판매게시판" Value="판매게시판"></asp:TreeNode>
+                            </Nodes>
+                        </asp:TreeView>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="2"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
