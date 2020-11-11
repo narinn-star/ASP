@@ -9,45 +9,33 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-
+        body{
+            background-color : #FFF7FF;
+        }
         .auto-style1 {
             width: 100%;
         }
-        .auto-style5 {
-            height: 120px;
-            text-align: center;
-        }
         .auto-style6 {
-            height: 190px;
-            width: 300px;
-            text-align: left;
-            background-color: #FFEFFF;
-        }
-        .auto-style8 {
-            width: 100%;
-            height: 90px;
-        }
-        .auto-style7 {
-            width: 50px;
-            text-align: right;
-        }
-        .auto-style9 {
-            width: 190px;
-        }
-        .auto-style3 {
-            height: 500px;
+            margin : 5px;
+            text-align: center;
             background-color: #FFF7FF;
-        }
-        .auto-style4 {
-            height: 500px;
-            width: 300px;
-            background-color: #FFEFFF;
         }
         .auto-style2 {
             height: 50px;
+            background-color: #FFEFFF;
         }
-        .auto-style10 {
-            text-align: center;
+        .auto-style13 {
+            height: 104px;
+            background-color: #FFEFFF;
+            text-align: justify;
+        }
+        .auto-style14 {
+            margin-bottom: 0px;
+        }
+        .auto-style15 {
+            height: 40px;
+            background-color: #FFEFFF;
+            text-align: right;
         }
     </style>
 </head>
@@ -57,53 +45,64 @@
         </div>
         <table class="auto-style1">
             <tr>
-                <td class="auto-style5" colspan="2">
-                    <asp:Image ID="Image1" runat="server" />
+                <td class="auto-style13">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" Width="120px" />
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    </td>
+            </tr>
+            <tr>
+                <td class="auto-style15">
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="36px" ImageUrl="~/IMAGE/MyPage.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
+                    &nbsp;
+                    <asp:ImageButton ID="ImageButton4" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-out.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
+                &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="36px" ImageUrl="~/IMAGE/sign up.jpg" Width="125px" OnClick="ImageButton1_Click" />
+                    &nbsp;
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-in.jpg" Width="125px" OnClick="ImageButton2_Click" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style6">
-&nbsp;
                     <br />
-                    <table class="auto-style8">
-                        <tr>
-                            <td class="auto-style7">ID</td>
-                            <td class="auto-style9">
-                                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                            </td>
-                            <td rowspan="2">&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style7">P/W</td>
-                            <td class="auto-style9">
-                                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                            </td>
-                        </tr>
-                    </table>
-                    <asp:ImageButton ID="ImageButton1" runat="server" Height="42px" ImageUrl="~/IMAGE/sign up.jpg" Width="140px" OnClick="ImageButton1_Click" />
-&nbsp;
-                    <asp:ImageButton ID="ImageButton2" runat="server" Height="42px" ImageUrl="~/IMAGE/Log-in.jpg" Width="140px" />
-                </td>
-                <td class="auto-style3" rowspan="2">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
             </asp:ContentPlaceHolder>
-                </td>
+                    &nbsp;&nbsp;&nbsp;
+                    </td>
             </tr>
             <tr>
-                <td class="auto-style4">&nbsp;&nbsp;&nbsp;
-                    <div>
-                        <asp:TreeView ID="TreeView1" runat="server" CssClass="auto-style10" ForeColor="Black" Height="87px">
-                            <Nodes>
-                                <asp:TreeNode NavigateUrl="~/general.aspx" Text="일반게시판" Value="일반게시판"></asp:TreeNode>
-                                <asp:TreeNode NavigateUrl="~/information.aspx" Text="정보게시판" Value="정보게시판"></asp:TreeNode>
-                                <asp:TreeNode NavigateUrl="~/sale.aspx" Text="판매게시판" Value="판매게시판"></asp:TreeNode>
-                            </Nodes>
-                        </asp:TreeView>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2" colspan="2"></td>
+                <td class="auto-style2"></td>
             </tr>
         </table>
     </form>

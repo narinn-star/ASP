@@ -4,18 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
 
 namespace CoviDoctor_ASP.Sign_in_Sign_up
 {
-    public partial class Sign_up : System.Web.UI.Page
+    public partial class Sign_in : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }

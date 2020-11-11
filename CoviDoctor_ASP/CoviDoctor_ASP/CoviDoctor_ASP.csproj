@@ -73,9 +73,11 @@
     <Content Include="IMAGE\Log-out.jpg" />
     <Content Include="IMAGE\MyPage.jpg" />
     <Content Include="IMAGE\sign up.jpg" />
+    <Content Include="IMAGE\CoviDoctor_Logo.png" />
     <Content Include="IMAGE\일반게시판.jpg" />
     <Content Include="IMAGE\정보게시판.jpg" />
     <Content Include="IMAGE\판매게시판.jpg" />
+    <Content Include="Sign in_Sign up\Sign_in.aspx" />
     <Content Include="Sign in_Sign up\Sign_up.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -95,6 +97,13 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign in_Sign up\Sign_in.aspx.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign in_Sign up\Sign_in.aspx.designer.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sign in_Sign up\Sign_up.aspx.cs">
       <DependentUpon>Sign_up.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
