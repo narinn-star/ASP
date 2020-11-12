@@ -47,7 +47,7 @@
             <td class="auto-style20">&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style24" rowspan="2">
-                <asp:Button ID="Button1" runat="server" Height="55px" Text="확 인" Width="70px" />
+                <asp:Button ID="Button1" runat="server" Height="55px" Text="확 인" Width="70px" OnClick="Button1_Click" />
             </td>
         </tr>
         <tr>

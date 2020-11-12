@@ -46,11 +46,10 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style13">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" Width="120px" />
-                    &nbsp;&nbsp;
-                    &nbsp;&nbsp;
-                    </td>
+                    &nbsp;<asp:Image ID="Image2" runat="server" Height="130px" ImageUrl="~/IMAGE/title.png" Width="600px" />
+                    여기에 넣어주세요</td>
             </tr>
             <tr>
                 <td class="auto-style15">

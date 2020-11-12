@@ -68,12 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="General_Post\General_Post_Main.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="IMAGE\Log-in.jpg" />
     <Content Include="IMAGE\Log-out.jpg" />
     <Content Include="IMAGE\MyPage.jpg" />
     <Content Include="IMAGE\sign up.jpg" />
     <Content Include="IMAGE\CoviDoctor_Logo.png" />
+    <Content Include="IMAGE\CoviDoctor_Title.png" />
+    <Content Include="IMAGE\title.png" />
     <Content Include="IMAGE\일반게시판.jpg" />
     <Content Include="IMAGE\정보게시판.jpg" />
     <Content Include="IMAGE\판매게시판.jpg" />
@@ -88,6 +91,9 @@
     </Compile>
     <Compile Include="General_Post\General_Post_Main.aspx.designer.cs">
       <DependentUpon>General_Post_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -131,7 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Information_Post\" />
-    <Folder Include="Shopping_Post\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

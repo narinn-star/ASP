@@ -11,6 +11,11 @@ namespace CoviDoctor_ASP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label1.Text = (string)Session["name"];
+        }
+
+        protected void Label1_Load(object sender, EventArgs e)
+        {
 
         }
     }

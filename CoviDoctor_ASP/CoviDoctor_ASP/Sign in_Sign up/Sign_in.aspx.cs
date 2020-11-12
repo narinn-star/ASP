@@ -13,5 +13,11 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session["name"]= "asd";
+
+        }
     }
 }

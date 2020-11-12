@@ -134,10 +134,12 @@
             <td class="auto-style18"></td>
             <td class="auto-style34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <strong>
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="가  입" CssClass="auto-style32" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="가  입" CssClass="auto-style32" style="height: 27px" />
                 </strong>
             </td>
-            <td class="auto-style25"></td>
+            <td class="auto-style25">
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            </td>
         </tr>
     </table>
     <br />

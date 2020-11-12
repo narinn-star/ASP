@@ -18,6 +18,7 @@
     <p>
     </p>
     <p>
+        <asp:Label ID="Label1" runat="server" OnLoad="Label1_Load" Text="Label"></asp:Label>
     </p>
     <p>
     </p>
