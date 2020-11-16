@@ -99,6 +99,12 @@
     <Content Include="Chapter8\SelectbyMileage.aspx" />
     <Content Include="Chapter8\ShowAllRecords.aspx" />
     <Content Include="Chapter8\SQL커맨드수행.aspx" />
+    <Content Include="Chapter9\Assignment_1.aspx" />
+    <Content Include="Chapter9\Assignment_2.aspx" />
+    <Content Include="Chapter9\Assignment_3.aspx" />
+    <Content Include="Chapter9\DetailsView.aspx" />
+    <Content Include="Chapter9\Pro9-2-1.aspx" />
+    <Content Include="Chapter9\Pro9-2-3.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Image\WebII_Newlogo.jpg" />
@@ -323,6 +329,48 @@
     </Compile>
     <Compile Include="Chapter8\SQL커맨드수행.aspx.designer.cs">
       <DependentUpon>SQL커맨드수행.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_1.aspx.cs">
+      <DependentUpon>Assignment_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_1.aspx.designer.cs">
+      <DependentUpon>Assignment_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_2.aspx.cs">
+      <DependentUpon>Assignment_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_2.aspx.designer.cs">
+      <DependentUpon>Assignment_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_3.aspx.cs">
+      <DependentUpon>Assignment_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\Assignment_3.aspx.designer.cs">
+      <DependentUpon>Assignment_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\DetailsView.aspx.cs">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\DetailsView.aspx.designer.cs">
+      <DependentUpon>DetailsView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\Pro9-2-1.aspx.cs">
+      <DependentUpon>Pro9-2-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\Pro9-2-1.aspx.designer.cs">
+      <DependentUpon>Pro9-2-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\Pro9-2-3.aspx.cs">
+      <DependentUpon>Pro9-2-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter9\Pro9-2-3.aspx.designer.cs">
+      <DependentUpon>Pro9-2-3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
