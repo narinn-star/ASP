@@ -7,11 +7,11 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace CoviDoctor_ASP
+namespace CoviDoctor_ASP.Information_Post
 {
 
 
-    public partial class Home
+    public partial class Information_Post
     {
     }
 }

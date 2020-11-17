@@ -8,7 +8,8 @@
     <p>
         여기에 우리 홈페이지 설명 적을거에요 !</p>
     <p>
-    </p>
+        디자인 팀에서 구성해서 넣어주세요 ~&nbsp;
+        &nbsp;</p>
     <p>
     </p>
     <p>
@@ -18,8 +19,7 @@
     <p>
     </p>
     <p>
-        <asp:Label ID="Label1" runat="server" OnLoad="Label1_Load" Text="Label"></asp:Label>
-    </p>
+        &nbsp;</p>
     <p>
     </p>
     <p>

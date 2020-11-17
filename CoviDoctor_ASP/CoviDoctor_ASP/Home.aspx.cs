@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Web.SessionState;
 
 namespace CoviDoctor_ASP
 {
@@ -11,7 +13,7 @@ namespace CoviDoctor_ASP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = (string)Session["name"];
+            //Label1.Text = (string)Session["name"]; 
         }
 
         protected void Label1_Load(object sender, EventArgs e)

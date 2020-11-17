@@ -19,15 +19,13 @@
             margin : 5px;
             text-align: center;
             background-color: #FFF7FF;
-        }
-        .auto-style2 {
-            height: 50px;
-            background-color: #FFEFFF;
+            width: 1330px;
         }
         .auto-style13 {
             height: 104px;
-            background-color: #FFEFFF;
-            text-align: justify;
+            background-color: #5F4378;
+            text-align: right;
+            width: 1330px;
         }
         .auto-style14 {
             margin-bottom: 0px;
@@ -35,43 +33,58 @@
         .auto-style15 {
             height: 40px;
             background-color: #FFEFFF;
-            text-align: right;
+            text-align: justify;
+            width: 1330px;
         }
-    </style>
+        .auto-style16 {
+            position: relative;
+            left: -37px;
+            top: 5px;
+        }
+        .auto-style17 {
+            position: relative;
+            left: -15px;
+            top: 0px;
+        }
+        .auto-style18 {
+            width: 200px;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
         <table class="auto-style1">
             <tr>
                 <td class="auto-style13">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" Width="120px" />
-                    &nbsp;<asp:Image ID="Image2" runat="server" Height="130px" ImageUrl="~/IMAGE/title.png" Width="600px" />
-                    여기에 넣어주세요</td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" CssClass="auto-style17" Height="90px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" OnClick="ImageButton6_Click" Width="90px" />
+                    <asp:ImageButton ID="ImageButton5" runat="server" CssClass="auto-style16" Height="100px" ImageUrl="~/IMAGE/logo_edited.png" OnClick="ImageButton5_Click" Width="380px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="36px" ImageUrl="~/IMAGE/MyPage.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
+                    &nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-out.jpg" Width="125px" CssClass="auto-style14" OnClick="ImageButton4_Click" />
+                    &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="36px" ImageUrl="~/IMAGE/sign up.jpg" Width="125px" OnClick="ImageButton1_Click" />
+                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-in.jpg" Width="125px" OnClick="ImageButton2_Click" />
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">
-                    <asp:ImageButton ID="ImageButton3" runat="server" Height="36px" ImageUrl="~/IMAGE/MyPage.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
-                    &nbsp;
-                    <asp:ImageButton ID="ImageButton4" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-out.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
-                &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="36px" ImageUrl="~/IMAGE/sign up.jpg" Width="125px" OnClick="ImageButton1_Click" />
-                    &nbsp;
-                    <asp:ImageButton ID="ImageButton2" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-in.jpg" Width="125px" OnClick="ImageButton2_Click" />
+                    <asp:ImageButton ID="ImageButton7" runat="server" Height="40px" ImageUrl="~/IMAGE/MENU.png" OnClick="ImageButton7_Click" Width="1457px" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style6">
-                    <br />
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style18">
+                                접속 일시<br />
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
+                            </td>
+                            <td>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <p>
                     <br />
                 </p>
                 <p>
-                </p>
-                <p>
-                </p>
+                    &nbsp;</p>
                 <p>
                 </p>
                 <p>
@@ -97,13 +110,14 @@
                 <p>
                 </p>
             </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
                     &nbsp;&nbsp;&nbsp;
                     </td>
             </tr>
-            <tr>
-                <td class="auto-style2"></td>
-            </tr>
-        </table>
+            </table>
     </form>
 </body>
 </html>

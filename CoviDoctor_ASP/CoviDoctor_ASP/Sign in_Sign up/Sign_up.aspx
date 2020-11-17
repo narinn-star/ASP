@@ -138,7 +138,7 @@
                 </strong>
             </td>
             <td class="auto-style25">
-                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label1" runat="server"></asp:Label>
             </td>
         </tr>
     </table>
