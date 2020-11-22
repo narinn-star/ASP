@@ -36,7 +36,6 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
 
             if (id != "" && pwd != "" && name != "" && gender != "" && email != "" && birth != "")
             {
-
                 Con.Open();
                 try
                 {
