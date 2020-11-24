@@ -16,24 +16,20 @@ namespace CoviDoctor_ASP.General_Post
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TextBox1.Visible = true;
-            TextBox2.Visible = true;
-            Button1.Visible = false;
-            Button2.Visible = true;
-            Button3.Visible = true;
-            Label1.Visible = true;
-            Label2.Visible = true;
+            Response.Redirect("https://localhost:44332/General_Post/Communication_Post_Read.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            TextBox1.Visible = false;
-            TextBox2.Visible = false;
-            Button1.Visible = true;
-            Button2.Visible = false;
-            Button3.Visible = false;
-            Label1.Visible = false;
-            Label2.Visible = false;
+            Response.Redirect("https://localhost:44332/General_Post/Communication_Post.aspx");
+        }
+
+        protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
+        {
+            string title = TextBox1.Text;
+            string contents = TextBox2.Text;
+            string connectionString = @"Server=localhost\SQLEXPRESS;Database=covDB;Trusted_Connection=True;";
+
         }
     }
 }

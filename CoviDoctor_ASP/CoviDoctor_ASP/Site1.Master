@@ -56,10 +56,10 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style13">
-                    &nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" CssClass="auto-style17" Height="90px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" OnClick="ImageButton6_Click" Width="90px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" CssClass="auto-style17" Height="90px" ImageUrl="~/IMAGE/CoviDoctor_Logo.png" OnClick="ImageButton6_Click" Width="90px" BorderColor="White" BorderWidth="0px" />
                     <asp:ImageButton ID="ImageButton5" runat="server" CssClass="auto-style16" Height="100px" ImageUrl="~/IMAGE/logo_edited.png" OnClick="ImageButton5_Click" Width="380px" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:ImageButton ID="ImageButton3" runat="server" Height="36px" ImageUrl="~/IMAGE/MyPage.jpg" Visible="False" Width="125px" CssClass="auto-style14" />
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="36px" ImageUrl="~/IMAGE/MyPage.jpg" Width="125px" CssClass="auto-style14" OnClick="ImageButton3_Click" />
                     &nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-out.jpg" Width="125px" CssClass="auto-style14" OnClick="ImageButton4_Click" />
                     &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="36px" ImageUrl="~/IMAGE/sign up.jpg" Width="125px" OnClick="ImageButton1_Click" />
                     &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="36px" ImageUrl="~/IMAGE/Log-in.jpg" Width="125px" OnClick="ImageButton2_Click" />
@@ -76,7 +76,34 @@
                         <tr>
                             <td class="auto-style18">
                                 접속 일시<br />
+                                <asp:Label ID="Label2" runat="server"></asp:Label>
+                                <br />
+                                <strong>
                                 <asp:Label ID="Label1" runat="server"></asp:Label>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                </strong>
                             </td>
                             <td>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -64,7 +64,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
             else
             {
                 ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                    "<script language=JavaScript>alert('not bin text!');</script>");
+                    "<script language=JavaScript>alert('ID 또는 Password가 일치하지 않습니다!');</script>");
 
             }
 

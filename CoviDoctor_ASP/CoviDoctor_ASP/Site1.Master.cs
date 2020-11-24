@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace CoviDoctor_ASP
 {
@@ -13,8 +14,7 @@ namespace CoviDoctor_ASP
         {
             if (!Request.IsAuthenticated)
             {
-
-                Label1.Text = "loginnop";
+                Label1.Text = "로그인 후 이용해주세요";
                 ImageButton4.Visible = false;
                 ImageButton3.Visible = false;
                 ImageButton2.Visible = true;
@@ -24,14 +24,14 @@ namespace CoviDoctor_ASP
             {
                 if (Session["name"]!=null)
                 {
-                    Label1.Text = "login 성공" + Session["name"].ToString();
+                    Label1.Text = "환영합니다 " + Session["name"].ToString() + "님!";
                     ImageButton4.Visible = true;
                     ImageButton3.Visible = true;
                     ImageButton2.Visible = false;
                     ImageButton1.Visible = false;
                 }
             }
-            //Label1.Text = DateTime.Now.ToString();
+            Label2.Text = DateTime.Now.ToString();
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -66,11 +66,21 @@ namespace CoviDoctor_ASP
             if (e.X < 364) //Home
                 Response.Redirect("https://localhost:44332/Home.aspx");
             else if (e.X < 728) //Communication_Post
-                Response.Redirect("https://localhost:44332/Sign%20in_Sign%20up/Sign_in.aspx");
+                Response.Redirect("https://localhost:44332/Communication_Post/Communication_Post.aspx");
             else if (e.X < 1092) //Information_Post
-                Response.Redirect("https://localhost:44332/Home.aspx");
+                Response.Redirect("https://localhost:44332/Information_Post/Information_Post.aspx");
             else //More+
-                Response.Redirect("https://localhost:44332/Sign%20in_Sign%20up/Sign_in.aspx");
+                Response.Redirect("https://localhost:44332/More/Else.aspx");
+        }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://localhost:44332/User/MyPage.aspx"); 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

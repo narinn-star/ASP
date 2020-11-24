@@ -67,25 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="General_Post\Communication_Post.aspx" />
-    <Content Include="General_Post\Communication_Post_Main.aspx" />
-    <Content Include="General_Post\Communication_Post_Read.aspx" />
+    <Content Include="Communication_Post\Communication_Post.aspx" />
+    <Content Include="Communication_Post\Communication_Post_Main.aspx" />
+    <Content Include="Communication_Post\Communication_Post_Read.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="IMAGE\Back.jpg" />
+    <Content Include="IMAGE\Cancel.jpg" />
+    <Content Include="IMAGE\heart.png" />
+    <Content Include="IMAGE\information_icon.png" />
     <Content Include="IMAGE\Log-in.jpg" />
     <Content Include="IMAGE\Log-out.jpg" />
     <Content Include="IMAGE\logo_edited.png" />
     <Content Include="IMAGE\MENU.png" />
     <Content Include="IMAGE\MyPage.jpg" />
+    <Content Include="IMAGE\mypage1.jpg" />
+    <Content Include="IMAGE\mypage2.jpg" />
+    <Content Include="IMAGE\opportunity.png" />
+    <Content Include="IMAGE\people_icon.png" />
     <Content Include="IMAGE\sign up.jpg" />
     <Content Include="IMAGE\CoviDoctor_Logo.png" />
-    <Content Include="IMAGE\CoviDoctor_Title.png" />
+    <Content Include="IMAGE\Upload.jpg" />
+    <Content Include="IMAGE\User.png" />
+    <Content Include="IMAGE\Write.jpg" />
+    <Content Include="IMAGE\글 작성.jpg" />
+    <Content Include="IMAGE\댓글.jpg" />
     <Content Include="IMAGE\일반게시판.jpg" />
     <Content Include="IMAGE\정보게시판.jpg" />
     <Content Include="Information_Post\Information_Post.aspx" />
     <Content Include="Information_Post\Information_Post_Main.aspx" />
     <Content Include="Information_Post\Information_Post_Read.aspx" />
-    <Content Include="MORE+\Else.aspx" />
+    <Content Include="MORE\Else.aspx" />
     <Content Include="Sign in_Sign up\Sign_in.aspx" />
     <Content Include="Sign in_Sign up\Sign_up.aspx" />
     <Content Include="User\ManagerPage.aspx" />
@@ -93,25 +105,25 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General_Post\Communication_Post.aspx.cs">
+    <Compile Include="Communication_Post\Communication_Post.aspx.cs">
       <DependentUpon>Communication_Post.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="General_Post\Communication_Post.aspx.designer.cs">
+    <Compile Include="Communication_Post\Communication_Post.aspx.designer.cs">
       <DependentUpon>Communication_Post.aspx</DependentUpon>
     </Compile>
-    <Compile Include="General_Post\Communication_Post_Main.aspx.cs">
+    <Compile Include="Communication_Post\Communication_Post_Main.aspx.cs">
       <DependentUpon>Communication_Post_Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="General_Post\Communication_Post_Main.aspx.designer.cs">
+    <Compile Include="Communication_Post\Communication_Post_Main.aspx.designer.cs">
       <DependentUpon>Communication_Post_Main.aspx</DependentUpon>
     </Compile>
-    <Compile Include="General_Post\Communication_Post_Read.aspx.cs">
+    <Compile Include="Communication_Post\Communication_Post_Read.aspx.cs">
       <DependentUpon>Communication_Post_Read.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="General_Post\Communication_Post_Read.aspx.designer.cs">
+    <Compile Include="Communication_Post\Communication_Post_Read.aspx.designer.cs">
       <DependentUpon>Communication_Post_Read.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -145,11 +157,11 @@
     <Compile Include="Information_Post\Information_Post_Read.aspx.designer.cs">
       <DependentUpon>Information_Post_Read.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MORE+\Else.aspx.cs">
+    <Compile Include="MORE\Else.aspx.cs">
       <DependentUpon>Else.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MORE+\Else.aspx.designer.cs">
+    <Compile Include="MORE\Else.aspx.designer.cs">
       <DependentUpon>Else.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

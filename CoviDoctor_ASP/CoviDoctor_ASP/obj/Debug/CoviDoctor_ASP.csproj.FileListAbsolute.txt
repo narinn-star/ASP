@@ -175,3 +175,121 @@ C:\Users\이나린\Desktop\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_AS
 C:\Users\이나린\Desktop\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csproj.CopyComplete
 C:\Users\이나린\Desktop\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.dll
 C:\Users\이나린\Desktop\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.pdb
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\CoviDoctor_ASP.dll.config
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\CoviDoctor_ASP.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\CoviDoctor_ASP.pdb
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csc.exe
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csc.exe.config
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csc.rsp
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csi.exe
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csi.exe.config
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\csi.rsp
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.AppContext.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Console.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.IO.Compression.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Net.Http.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.ValueTuple.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\vbc.exe
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\vbc.exe.config
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\vbc.rsp
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\VBCSCompiler.exe
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csprojAssemblyReference.cache
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csproj.CoreCompileInputs.cache
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csproj.CopyComplete
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.dll
+C:\Users\apxkf\OneDrive\바탕 화면\CoviDoctor_ASP\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.pdb
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\CoviDoctor_ASP.dll.config
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\CoviDoctor_ASP.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\CoviDoctor_ASP.pdb
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csc.exe
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csc.exe.config
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csc.rsp
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csi.exe
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csi.exe.config
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\csi.rsp
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.AppContext.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Console.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.IO.Compression.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Net.Http.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.ValueTuple.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\vbc.exe
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\vbc.exe.config
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\vbc.rsp
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\VBCSCompiler.exe
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csprojAssemblyReference.cache
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csproj.CoreCompileInputs.cache
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.csproj.CopyComplete
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.dll
+C:\Users\이나린\Desktop\CoviDoctor_디자인병합본\CoviDoctor_ASP\obj\Debug\CoviDoctor_ASP.pdb

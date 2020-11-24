@@ -13,5 +13,15 @@ namespace CoviDoctor_ASP.Information_Post
         {
 
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44332/Information_Post/Information_Post.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44332/Information_Post/Information_Post_Read.aspx");
+        }
     }
 }

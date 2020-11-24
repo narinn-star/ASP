@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Information_Post_Read.aspx.cs" Inherits="CoviDoctor_ASP.Information_Post.Information_Post_Read" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Communication_Post_Read.aspx.cs" Inherits="CoviDoctor_ASP.General_Post.Communication_Post_Read" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
 
@@ -8,32 +8,28 @@
         .auto-style28 {
             color: #660066;
         }
+        .auto-style27 {
+            text-align: left;
+        }
         .auto-style26 {
             text-align: left;
             color: #660066;
             white-space:normal;
         }
-        .auto-style27 {
-            text-align: left;
-        }
         .auto-style29 {
             text-align: left;
-            font-size: large;
+            color: #CC00CC;
         }
         .auto-style30 {
             text-align: left;
+            color: #CC00CC;
             font-size: large;
-            color: #CC00CC;
-        }
-        .auto-style31 {
-            text-align: left;
-            color: #CC00CC;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p class="auto-style30">
-        <strong>정보게시판</strong></p>
+        <strong>소통게시판</strong></p>
     <p class="auto-style20">
         <strong>
         <asp:Label ID="Label2" runat="server" OnLoad="Label1_Click" Text="글 수정"></asp:Label>
@@ -55,16 +51,18 @@
     <p class="auto-style27">
         &nbsp;</p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" />
-&nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" />
+        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" Visible="False" />
+&nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" OnClick="ImageButton12_Click" />
+&nbsp;
     </p>
     <p class="auto-style26">
-        <asp:TextBox ID="TextBox1" runat="server" Height="57px" Visible="False" Width="1087px">댓글을 입력해 주세요.</asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" Height="57px" Visible="False" Width="1000px"></asp:TextBox>
     </p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" />
+        <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" Visible="False" />
     </p>
-    <p class="auto-style31">
+    <p class="auto-style29">
         <strong>댓글 목록</strong></p>
     <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="1072px">
     </asp:DetailsView>

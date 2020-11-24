@@ -13,5 +13,15 @@ namespace CoviDoctor_ASP.General_Post
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://localhost:44332/Communication_Post/Communication_Post_Main.aspx");
+        }
     }
 }
