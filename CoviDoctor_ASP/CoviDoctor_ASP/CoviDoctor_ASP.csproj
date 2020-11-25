@@ -92,6 +92,7 @@
     <Content Include="IMAGE\Write.jpg" />
     <Content Include="IMAGE\글 작성.jpg" />
     <Content Include="IMAGE\댓글.jpg" />
+    <Content Include="IMAGE\수정.jpg" />
     <Content Include="IMAGE\일반게시판.jpg" />
     <Content Include="IMAGE\정보게시판.jpg" />
     <Content Include="Information_Post\Information_Post.aspx" />

@@ -8,9 +8,6 @@
         .auto-style28 {
             color: #660066;
         }
-        .auto-style27 {
-            text-align: left;
-        }
         .auto-style26 {
             text-align: left;
             color: #660066;
@@ -25,34 +22,114 @@
             color: #CC00CC;
             font-size: large;
         }
+        .auto-style34 {
+            width: 94%;
+            height: 455px;
+        }
+        .auto-style32 {
+            text-align: justify;
+            height: 27px;
+            width: 460px;
+        }
+        .auto-style33 {
+            text-align: center;
+            height: 27px;
+            width: 127px;
+        }
+        .auto-style35 {
+            width: 81px;
+        }
+        .auto-style36 {
+            text-align: center;
+            color: #000000;
+            width: 81px;
+        }
+        .auto-style37 {
+            color: #000000;
+        }
+        .auto-style38 {
+            text-align: left;
+            color: #644D77;
+            font-size: x-large;
+        }
+        .auto-style39 {
+            color: #660066;
+            text-align: justify;
+        }
+        .auto-style40 {
+            width: 81px;
+            height: 31px;
+        }
+        .auto-style41 {
+            color: #660066;
+            text-align: justify;
+            height: 31px;
+        }
+        .auto-style42 {
+            text-align: left;
+            color: #644D77;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p class="auto-style30">
-        <strong>소통게시판</strong></p>
+    <p class="auto-style38">
+        <strong>Communication</strong></p>
     <p class="auto-style20">
         <strong>
-        <asp:Label ID="Label2" runat="server" OnLoad="Label1_Click" Text="글 수정"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </strong>
     </p>
     <p>
         <br />
-        <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="1072px">
-        </asp:DetailsView>
+    <table border="1" class="auto-style34">
+        <tr>
+            <td class="auto-style36"><strong>작성자</strong></td>
+            <td class="auto-style32">
+                &nbsp;
+                <asp:Label ID="Label4" runat="server"></asp:Label>
+            </td>
+            <td class="auto-style33"><strong>작성자 ID</strong></td>
+            <td class="auto-style30">
+                &nbsp;
+                <asp:Label ID="Label5" runat="server" CssClass="auto-style37"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style36"><strong>작성일</strong></td>
+            <td class="auto-style32">
+                &nbsp;
+                <asp:Label ID="Label8" runat="server"></asp:Label>
+            </td>
+            <td class="auto-style33"><strong>조회수</strong></td>
+            <td class="auto-style30">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style40"><strong>제목</strong></td>
+            <td class="auto-style41" colspan="3">
+                &nbsp;
+                <asp:Label ID="Label6" runat="server" CssClass="auto-style37"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style35"><strong>내용</strong></td>
+            <td class="auto-style39" colspan="3">
+                <asp:Label ID="Label7" runat="server" CssClass="auto-style37"></asp:Label>
+            </td>
+        </tr>
+    </table>
     </p>
     <p class="auto-style20">
         <span class="auto-style28">이 글이 마음에 들어요!</span><asp:ImageButton ID="ImageButton8" runat="server" ImageUrl="~/IMAGE/heart.png" Width="100px" />
         <strong>
         <asp:Label ID="Label3" runat="server" CssClass="auto-style29" OnLoad="Label1_Click" style="color: #CC00CC; font-size: x-large" Text="0"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </strong>&nbsp;
     </p>
-    <p>
-        &nbsp;</p>
-    <p class="auto-style27">
-        &nbsp;</p>
     <p class="auto-style20">
         <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" Visible="False" />
 &nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" OnClick="ImageButton12_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;
     </p>
     <p class="auto-style26">
@@ -61,10 +138,11 @@
     </p>
     <p class="auto-style20">
         <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" Visible="False" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
-    <p class="auto-style29">
+    <p class="auto-style42">
         <strong>댓글 목록</strong></p>
-    <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="1072px">
+    <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="988px">
     </asp:DetailsView>
     <p>
     </p>

@@ -71,10 +71,16 @@
 <p>
         &nbsp;</p>
 <p>
-        <strong>Sign in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
+        <strong>Sign in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
 </p>
 &nbsp;&nbsp;
     <table align="center" class="auto-style25">
+        <tr>
+            <td class="auto-style26">&nbsp;</td>
+            <td class="auto-style20">&nbsp;</td>
+            <td class="auto-style24">
+                &nbsp;</td>
+        </tr>
         <tr>
             <td class="auto-style26">ID</td>
             <td class="auto-style20"><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -86,7 +92,7 @@
         </tr>
         <tr>
             <td class="auto-style18">PASSWORD </td>
-            <td class="auto-style23"><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <td class="auto-style23"><asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
 &nbsp;</td>
         </tr>
         <tr>

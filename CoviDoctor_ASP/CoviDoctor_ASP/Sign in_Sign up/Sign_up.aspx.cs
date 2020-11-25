@@ -32,7 +32,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
 
-            Cmd.CommandText = "select * from userlist where id = '"+id+"'";
+            Cmd.CommandText = "select * from userlist where id = '" + id + "'";
 
             if (id != "" && pwd != "" && name != "" && gender != "" && email != "" && birth != "")
             {
