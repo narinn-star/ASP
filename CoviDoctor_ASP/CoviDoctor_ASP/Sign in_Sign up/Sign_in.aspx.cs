@@ -53,11 +53,20 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
                         FormsAuthentication.SetAuthCookie(id, false);
                         //string url = FormsAuthentication.GetRedirectUrl(id, false);
                         Session["name"] = name;
+                        Session["id"] = id;
                         Response.Redirect("https://localhost:44332/Home.aspx");
+                    }
+                    else
+                    {
+                        // 로그인 정보가 잘못되었습니다.
+                        ClientScript.RegisterStartupScript
+                           (typeof(Page), "alert", "<script language=JavaScript>alert('로그인 정보가 잘못되었거나 회원이 아닙니다.');</script>");
+
                     }
                 }
                 catch (Exception ex)
                 {
+
                 }
                 Con.Close();
             }

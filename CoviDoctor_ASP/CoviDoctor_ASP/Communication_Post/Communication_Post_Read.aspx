@@ -5,17 +5,10 @@
         .auto-style20 {
             text-align: right;
         }
-        .auto-style28 {
-            color: #660066;
-        }
         .auto-style26 {
             text-align: left;
             color: #660066;
             white-space:normal;
-        }
-        .auto-style29 {
-            text-align: left;
-            color: #CC00CC;
         }
         .auto-style30 {
             text-align: left;
@@ -90,7 +83,7 @@
             </td>
             <td class="auto-style33"><strong>작성자 ID</strong></td>
             <td class="auto-style30">
-                &nbsp;
+                &nbsp;&nbsp;
                 <asp:Label ID="Label5" runat="server" CssClass="auto-style37"></asp:Label>
             </td>
         </tr>
@@ -102,7 +95,9 @@
             </td>
             <td class="auto-style33"><strong>조회수</strong></td>
             <td class="auto-style30">
-                &nbsp;</td>
+                &nbsp;&nbsp;
+                <asp:Label ID="Label9" runat="server" CssClass="auto-style37"></asp:Label>
+            </td>
         </tr>
         <tr>
             <td class="auto-style40"><strong>제목</strong></td>
@@ -120,14 +115,7 @@
     </table>
     </p>
     <p class="auto-style20">
-        <span class="auto-style28">이 글이 마음에 들어요!</span><asp:ImageButton ID="ImageButton8" runat="server" ImageUrl="~/IMAGE/heart.png" Width="100px" />
-        <strong>
-        <asp:Label ID="Label3" runat="server" CssClass="auto-style29" OnLoad="Label1_Click" style="color: #CC00CC; font-size: x-large" Text="0"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </strong>&nbsp;
-    </p>
-    <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" Visible="False" />
+        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Back.jpg" Width="125px" />
 &nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" OnClick="ImageButton12_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;

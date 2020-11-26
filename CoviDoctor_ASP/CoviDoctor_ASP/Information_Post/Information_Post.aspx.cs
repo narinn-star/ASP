@@ -21,7 +21,20 @@ namespace CoviDoctor_ASP.Information_Post
 
         protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("https://localhost:44332/Information_Post/Information_Post_Main.aspx");
+            string manager = "manager";
+         
+            if(Session["id"].ToString() == manager)
+            {
+                Response.Redirect("https://localhost:44332/Information_Post/Information_Post_Main.aspx");
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript
+                          (typeof(Page), "alert", 
+                          "<script language=JavaScript>alert('글 작성 권한이 없습니다.');" +
+                          "location.href('Informaion_Post.aspx') </script>");
+
+            }
         }
     }
 }

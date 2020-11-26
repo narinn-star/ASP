@@ -51,12 +51,12 @@ namespace CoviDoctor_ASP.General_Post
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44332/General_Post/Communication_Post_Read.aspx");
+            
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44332/General_Post/Communication_Post.aspx");
+            
         }
 
         protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
@@ -70,17 +70,19 @@ namespace CoviDoctor_ASP.General_Post
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
 
-            Cmd.CommandText = "insert into c_board (id, name, title, contents, date) values " +
-                "('" + Label5.Text + "', '" + Label4.Text + "', '" + TextBox1.Text + "', '" + TextBox2.Text + "', '" + Label3.Text + "')";
+            Cmd.CommandText = "insert into c_board (id, name, title, contents, date, count) values " +
+                "('" + Label5.Text + "', '" + Label4.Text + "', '" + TextBox1.Text + "', '" + TextBox2.Text + "', '" + Label3.Text + "', 0)";
             Con.Open();
             // ExecuteNonQuery()문은 CREATE, ALTER, DROP, INSERT, UPDATE, DELETE 문을 수행할때 사용
             // 리턴 값은 영향을 받은 ROW의 갯수
             try
             {
                 int rowsAffected = Cmd.ExecuteNonQuery();
-                ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                                "<script language=JavaScript>alert('글 작성이 완료되었습니다!');</script>");
-                Response.Redirect("Communication_Post.aspx");
+                ClientScript.RegisterStartupScript(typeof(Page), "alert", 
+                    "<script language=JavaScript>alert('글 작성이 완료되었습니다!');"
+                    + "location.href = 'https://localhost:44332/Communication_Post/Communication_Post.aspx'"
+                    + "</script>");
+
 
             }
             catch (Exception ex)
@@ -92,17 +94,14 @@ namespace CoviDoctor_ASP.General_Post
 
         protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
         {
+
+
+            ClientScript.RegisterStartupScript(typeof(Page), "alert",
+                 "<script language=JavaScript>alert('글 작성이 취소되었습니다.');" 
+                 + "location.href = 'https://localhost:44332/Communication_Post/Communication_Post.aspx'"
+                 + "</script>");
             
-            if(TextBox1.Text == " " || TextBox2.Text == " ")
-            {
-               Page.ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                            "<script language=JavaScript>alert('글 작성이 취소되었습니다.');</script>");
-                Response.Redirect("Communication_Post.aspx");
-            }
-            else
-            {
-                Response.Redirect("Communication_Post.aspx");
-            }
+
         }
     }
 }

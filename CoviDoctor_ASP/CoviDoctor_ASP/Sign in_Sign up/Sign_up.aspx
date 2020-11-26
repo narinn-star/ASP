@@ -107,6 +107,7 @@
                 <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style35">
+                <asp:Label ID="Label3" runat="server" Text="M 또는 F 입력"></asp:Label>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox7" CssClass="auto-style17" EnableClientScript="False" ErrorMessage="성별 입력"></asp:RequiredFieldValidator>
 &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox7" CssClass="auto-style17" EnableClientScript="False" ErrorMessage="M or F 입력" ValidationExpression="M|F"></asp:RegularExpressionValidator>
             </td>

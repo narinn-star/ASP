@@ -23,5 +23,10 @@ namespace CoviDoctor_ASP.General_Post
         {
             Response.Redirect("https://localhost:44332/Communication_Post/Communication_Post_Main.aspx");
         }
+
+        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            
+        }
     }
 }

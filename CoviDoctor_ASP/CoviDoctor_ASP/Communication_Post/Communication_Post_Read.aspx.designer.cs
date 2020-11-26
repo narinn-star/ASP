@@ -42,6 +42,15 @@ namespace CoviDoctor_ASP.General_Post
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
+        /// Label9 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label9;
+
+        /// <summary>
         /// Label6 컨트롤입니다.
         /// </summary>
         /// <remarks>
@@ -58,24 +67,6 @@ namespace CoviDoctor_ASP.General_Post
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label7;
-
-        /// <summary>
-        /// ImageButton8 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton8;
-
-        /// <summary>
-        /// Label3 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
         /// ImageButton11 컨트롤입니다.

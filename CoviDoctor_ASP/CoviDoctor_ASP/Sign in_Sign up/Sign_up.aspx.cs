@@ -66,7 +66,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
                         if (rows > 0)
                         {
                             ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                                "<script language=JavaScript>alert('Successful Sign up!');" +
+                                "<script language=JavaScript>alert('회원가입이 완료되었습니다!');" +
                                 "" +
                                 "location.href= 'https://localhost:44332/Home.aspx'" +
                                 "</script>");

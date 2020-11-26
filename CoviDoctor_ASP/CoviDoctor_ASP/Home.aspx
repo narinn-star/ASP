@@ -7,6 +7,14 @@
         .auto-style20 {
             font-size: small;
         }
+    .auto-style21 {
+        font-size: small;
+        color: #000000;
+    }
+    .auto-style22 {
+        font-size: medium;
+        color: #000000;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
@@ -14,7 +22,7 @@
         <asp:Image ID="Image2" runat="server" Height="235px" ImageUrl="~/IMAGE/opportunity.png" Width="235px" />
     </p>
     <p>
-        <strong><span class="auto-style19">Covidoctor</span></strong><span class="auto-style20">은 covid와 doctor를 결합한 단어로</span></p>
+        <strong><span class="auto-style22">Covidoctor</span></strong><span class="auto-style21">은 covid와 doctor를 결합한 단어로</span></p>
     <p>
         &nbsp;<span class="auto-style20">해당 사이트는 코로나19로 인해 사회적 거리두기가 진속됨에 따라</span></p>
     <p>

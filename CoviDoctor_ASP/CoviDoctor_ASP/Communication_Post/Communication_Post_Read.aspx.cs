@@ -17,14 +17,15 @@ namespace CoviDoctor_ASP.General_Post
             string name = "";
             string id = "";
             string date = "";
-            int count = 0;
+            int count = -1;
             string title = "";
             string contents = "";
+            string idx = Request.QueryString["idx"];
 
             // SQL COMMAND OBJECT를 만들고  SQL COMMAND 넣기
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
-            Cmd.CommandText = "select * from c_board where name = '" + Session["name"] + "'";
+            Cmd.CommandText = "select * from c_board where idx = '" + idx + "'";
 
             // SQL COMMAND 수행하기
             Con.Open();
@@ -40,7 +41,8 @@ namespace CoviDoctor_ASP.General_Post
                         name = reader["name"].ToString();
                         date = reader["date"].ToString();
                         title = reader["title"].ToString();
-                        contents = reader[contents].ToString();
+                        contents = reader["contents"].ToString();
+                        count = (int)reader["count"];
                         break;
                     }
 
@@ -50,11 +52,24 @@ namespace CoviDoctor_ASP.General_Post
             {
 
             }
+            Con.Close();
+
+            Con.Open();
+            count++;
+            Cmd.CommandText = "update c_board set count =" + count + " where idx ='" + idx + "'";
+
+            Cmd.ExecuteNonQuery();
+
+            Con.Close();
+
+            
+
             Label4.Text = name;
             Label5.Text = id;
             Label8.Text = date;
             Label6.Text = title;
             Label7.Text = contents;
+            Label9.Text = count.ToString();
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -83,7 +98,7 @@ namespace CoviDoctor_ASP.General_Post
         {
             TextBox1.Visible = true;
             ImageButton10.Visible = true;
-            ImageButton11.Visible = true;
+
         }
     }
 }

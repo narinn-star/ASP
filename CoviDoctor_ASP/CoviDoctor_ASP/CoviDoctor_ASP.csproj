@@ -83,6 +83,7 @@
     <Content Include="IMAGE\MyPage.jpg" />
     <Content Include="IMAGE\mypage1.jpg" />
     <Content Include="IMAGE\mypage2.jpg" />
+    <Content Include="IMAGE\new.gif" />
     <Content Include="IMAGE\opportunity.png" />
     <Content Include="IMAGE\people_icon.png" />
     <Content Include="IMAGE\sign up.jpg" />
@@ -99,6 +100,12 @@
     <Content Include="Information_Post\Information_Post_Main.aspx" />
     <Content Include="Information_Post\Information_Post_Read.aspx" />
     <Content Include="MORE\Else.aspx" />
+    <Content Include="MORE\image\WHO.jpeg" />
+    <Content Include="MORE\image\자가진단.PNG" />
+    <Content Include="MORE\image\질병관리청.jpg" />
+    <Content Include="MORE\image\코로나라이브.jpg" />
+    <Content Include="MORE\image\코로나바이러스감염증-19.JPG" />
+    <Content Include="MORE\image\코로나보드.PNG" />
     <Content Include="Sign in_Sign up\Sign_in.aspx" />
     <Content Include="Sign in_Sign up\Sign_up.aspx" />
     <Content Include="User\ManagerPage.aspx" />

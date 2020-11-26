@@ -76,12 +76,6 @@
 &nbsp;&nbsp;
     <table align="center" class="auto-style25">
         <tr>
-            <td class="auto-style26">&nbsp;</td>
-            <td class="auto-style20">&nbsp;</td>
-            <td class="auto-style24">
-                &nbsp;</td>
-        </tr>
-        <tr>
             <td class="auto-style26">ID</td>
             <td class="auto-style20"><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             </td>
@@ -102,7 +96,7 @@
         </tr>
         <tr>
             <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td class="auto-style23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style22" PostBackUrl="~/Sign in_Sign up/Sign_up.aspx">회원가입</asp:LinkButton>
             </td>
             <td class="auto-style29">&nbsp;</td>
@@ -137,30 +131,5 @@
             <td class="auto-style21"></td>
             <td class="auto-style30"></td>
         </tr>
-        <tr>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style30">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style30">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style30">&nbsp;</td>
-        </tr>
-    </table>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>
-</p>
+        </table>
 </asp:Content>

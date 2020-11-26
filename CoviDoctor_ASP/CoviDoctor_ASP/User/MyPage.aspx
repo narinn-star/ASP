@@ -17,6 +17,7 @@
             width: 850px;
             text-align: left;
         background-color: #FFF7FF;
+        color: #000000;
     }
         .auto-style26 {
         text-align: left;
@@ -27,6 +28,7 @@
         text-align: center;
         height: 255px;
         background-color: #FFF7FF;
+        color: #000000;
     }
         .auto-style33 {
         width: 152px;
@@ -49,6 +51,15 @@
     .auto-style38 {
         background-color: #FEF7FF;
     }
+    .auto-style39 {
+        color: #000000;
+    }
+
+    .GridViewHyperLink{
+            color: black;
+            text-decoration:none;
+    }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -106,6 +117,39 @@
                 <asp:Image ID="Image2" runat="server" Height="45px" ImageUrl="~/IMAGE/mypage1.jpg" Width="157px" CssClass="auto-style38" />
                 <br />
                 <br />
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+                    BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" 
+                    CellPadding="3" DataKeyNames="idx" DataSourceID="SqlDataSource1" GridLines="Horizontal" 
+                    Width="837px" Height="32px" CssClass="list" AllowPaging="True">
+                    <HeaderStyle CssClass ="header" />
+                    <RowStyle CssClass ="row" />
+                    <PagerStyle CssClass ="pager" HorizontalAlign="Right" />
+                    <PagerSettings PageButtonCount="5" Mode="NumericFirstLast" FirstPageText="처음" LastPageText="끝" />
+                    <AlternatingRowStyle BackColor="#F7F7F7" />
+                    <Columns>
+                        <asp:BoundField DataField="idx" HeaderText="No" InsertVisible="False" ReadOnly="True" SortExpression="idx" />
+                        <asp:BoundField DataField="name" HeaderText="작성자" SortExpression="name" />
+                        <asp:HyperLinkField ControlStyle-CssClass="GridViewHyperLink" DataTextField="title" 
+                            HeaderText="제목" DataNavigateUrlFormatString="Communication_Post_Read.aspx?idx={0}"
+                            DataNavigateUrlFields="idx" SortExpression="title" />
+                        <asp:BoundField DataField="count" HeaderText="조회수" SortExpression="count" />
+                        <asp:BoundField DataField="date" HeaderText="작성일시" SortExpression="date" />
+                    </Columns>
+                    <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+                    <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
+                    <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+                    <RowStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" />
+                    <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
+                    <SortedAscendingCellStyle BackColor="#F4F4FD" />
+                    <SortedAscendingHeaderStyle BackColor="#5A4C9D" />
+                    <SortedDescendingCellStyle BackColor="#D8D8F0" />
+                    <SortedDescendingHeaderStyle BackColor="#3E3277" />
+                </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CovDBConnectionString %>" SelectCommand="SELECT [idx], [name], [title], [count], [date] FROM [c_board] WHERE ([id] = @id)">
+                    <SelectParameters>
+                        <asp:SessionParameter Name="id" SessionField="id" Type="String" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
                 <br />
                 <br />
                 <br />
@@ -117,10 +161,10 @@
             </td>
             <td class="auto-style26">
                 &nbsp;
-                <asp:Label ID="Label2" runat="server" Text="name"></asp:Label>
-&nbsp;(
+                <asp:Label ID="Label2" runat="server" Text="name" CssClass="auto-style39"></asp:Label>
+                <span class="auto-style39">&nbsp;(
                 <asp:Label ID="Label3" runat="server" Text="ID"></asp:Label>
-&nbsp;)<span class="auto-style24"><br />
+&nbsp;)</span><span class="auto-style24"><br />
                 <br />
                 </span><br />
                 <br />

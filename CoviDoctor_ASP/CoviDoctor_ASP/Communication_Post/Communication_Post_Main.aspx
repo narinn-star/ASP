@@ -99,7 +99,7 @@
         <asp:Label ID="Label6" runat="server"></asp:Label>
         <asp:Label ID="Label3" runat="server" Visible="False"></asp:Label>
         <asp:ImageButton ID="ImageButton9" runat="server" Height="36px" ImageUrl="~/IMAGE/Upload.jpg" Width="125px" OnClick="ImageButton9_Click" />
-&nbsp;<asp:ImageButton ID="ImageButton8" runat="server" Height="36px" ImageUrl="~/IMAGE/Back.jpg" Width="125px" OnClick="ImageButton8_Click" />
+&nbsp;<asp:ImageButton ID="ImageButton8" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" OnClick="ImageButton8_Click" />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p>
