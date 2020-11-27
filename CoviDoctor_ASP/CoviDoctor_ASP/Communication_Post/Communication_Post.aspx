@@ -27,12 +27,13 @@
         <br />
         <span class="auto-style22"><strong>Communication</strong></span></p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton8" runat="server" Height="36px" ImageUrl="~/IMAGE/글 작성.jpg" OnClick="ImageButton8_Click" Width="120px" />
+        <asp:ImageButton ID="ImageButton8" runat="server" Height="36px" ImageUrl="~/IMAGE/글 작성.jpg" OnClick="ImageButton8_Click" Width="125px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <asp:GridView ID="GridView1" runat="server" Height="32px" Width="895px" 
         GridLines="Horizontal" CssClass ="list" AllowPaging="True" AutoGenerateColumns="False" 
-        DataKeyNames="idx" DataSourceID="SqlDataSource1" OnRowDataBound="GridView1_RowDataBound" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" PageSize="15">
+        DataKeyNames="idx" DataSourceID="SqlDataSource1" OnRowDataBound="GridView1_RowDataBound" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3">
         <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
         <HeaderStyle CssClass ="header" BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
         <RowStyle CssClass ="row" BackColor="#E7E7FF" ForeColor="#4A3C8C" />

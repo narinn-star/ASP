@@ -5,19 +5,10 @@
         .auto-style20 {
             text-align: right;
         }
-        .auto-style26 {
-            text-align: center;
-            color: #660066;
-            white-space:normal;
-        }
         .auto-style30 {
             text-align: left;
             font-size: large;
             color: #CC00CC;
-        }
-        .auto-style31 {
-            text-align: left;
-            color: #644D77;
         }
         .auto-style34 {
             width: 94%;
@@ -62,6 +53,11 @@
             font-size: x-large;
             color: #644E78;
         }
+        .auto-style46 {
+            color: #644D77;
+            font-size: large;
+            font-family: Consolas;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -70,6 +66,11 @@
     <p class="auto-style20">
         &nbsp;</p>
     <p>
+        &nbsp;</p>
+    <p>
+        <table class="auto-style1">
+            <tr>
+                <td colspan="2">
     <table border="1" class="auto-style34">
         <tr>
             <td class="auto-style36"><strong>작성자</strong></td>
@@ -109,24 +110,24 @@
             </td>
         </tr>
     </table>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style20"><strong>
+                    <br />
+                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style46" OnClick="LinkButton1_Click">Delete</asp:LinkButton>
+                    &nbsp;
+                    <asp:LinkButton ID="LinkButton2" runat="server" CssClass="auto-style46" OnClick="LinkButton2_Click">Update</asp:LinkButton>
+                    &nbsp;
+                    <asp:LinkButton ID="LinkButton3" runat="server" CssClass="auto-style46" OnClick="LinkButton3_Click">Back</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </strong></td>
+            </tr>
+        </table>
         <br />
     </p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Back.jpg" Width="125px" />
-&nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" OnClick="ImageButton12_Click" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </p>
-    <p class="auto-style26">
-        <asp:TextBox ID="TextBox1" runat="server" Height="57px" Visible="False" Width="980px"></asp:TextBox>
-    </p>
-    <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" Visible="False" OnClick="ImageButton10_Click" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </p>
-    <p class="auto-style31">
-        <strong>댓글 목록</strong></p>
-    <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="984px">
-    </asp:DetailsView>
-    <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
 </asp:Content>

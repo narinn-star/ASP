@@ -1,9 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Information_Post_Main.aspx.cs" Inherits="CoviDoctor_ASP.Information_Post.Information_Post_Main" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Information_Post_Modify.aspx.cs" Inherits="CoviDoctor_ASP.Information_Post.Information_Post_Modify" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
 
-        .auto-style21 {
-            text-align: right;
+        .auto-style36 {
+            text-align: left;
+            font-size: x-large;
+            color: #644E78;
         }
         .auto-style22 {
             text-align: left;
@@ -36,15 +38,14 @@
         .auto-style28 {
             text-align: justify;
         }
-        .auto-style36 {
-            text-align: left;
-            font-size: x-large;
-            color: #644E78;
+        
+        .auto-style21 {
+            text-align: right;
         }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
+    <p class="auto-style36">
         &nbsp;</p>
     <p class="auto-style36">
         <strong>Information</strong></p>
@@ -53,13 +54,11 @@
     <table border="1" class="auto-style34">
         <tr>
             <td class="auto-style29"><strong>작성자</strong></td>
-            <td class="auto-style32">
-                &nbsp;
+            <td class="auto-style32">&nbsp;
                 <asp:Label ID="Label4" runat="server"></asp:Label>
             </td>
             <td class="auto-style33"><strong>작성자 ID</strong></td>
-            <td class="auto-style30">
-                &nbsp;
+            <td class="auto-style30">&nbsp;
                 <asp:Label ID="Label5" runat="server"></asp:Label>
             </td>
         </tr>
@@ -83,6 +82,4 @@
 &nbsp;<asp:ImageButton ID="ImageButton8" runat="server" Height="36px" ImageUrl="~/IMAGE/Cancel.jpg" Width="125px" OnClick="ImageButton8_Click" OnClientClick=" " />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
-    <p class="auto-style22">
-        &nbsp;</p>
 </asp:Content>

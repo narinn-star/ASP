@@ -62,6 +62,24 @@
             text-align: left;
             color: #644D77;
         }
+        .auto-style43 {
+            text-align: left;
+        }
+        .auto-style44 {
+            width: 524px;
+        }
+        .auto-style45 {
+            width: 94%;
+        }
+        .auto-style46 {
+            color: #644D77;
+            font-size: large;
+            font-family: Consolas;
+        }
+        .auto-style47 {
+            font-size: x-small;
+            color: #C0C0C0;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -74,7 +92,12 @@
     </p>
     <p>
         <br />
-    <table border="1" class="auto-style34">
+    </p>
+    <p class="auto-style43">
+        <table class="auto-style45">
+            <tr>
+                <td colspan="2">
+    <table border="1" class="auto-style34" align="right">
         <tr>
             <td class="auto-style36"><strong>작성자</strong></td>
             <td class="auto-style32">
@@ -113,25 +136,60 @@
             </td>
         </tr>
     </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style44">&nbsp;</td>
+                <td class="auto-style20"><strong>
+                    <br />
+&nbsp;<asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style46" OnClick="LinkButton1_Click">Delete</asp:LinkButton>
+                    </strong>&nbsp;<strong>
+                    <asp:LinkButton ID="LinkButton2" runat="server" CssClass="auto-style46" OnClick="LinkButton2_Click">Update</asp:LinkButton>
+                    </strong>&nbsp;<strong>
+                    <asp:LinkButton ID="LinkButton3" runat="server" CssClass="auto-style46" OnClick="LinkButton3_Click">Back</asp:LinkButton>
+                    </strong>&nbsp;&nbsp; </td>
+            </tr>
+        </table>
     </p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton11" runat="server" Height="36px" ImageUrl="~/IMAGE/Back.jpg" Width="125px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;<asp:ImageButton ID="ImageButton12" runat="server" Height="36px" ImageUrl="~/IMAGE/댓글.jpg" Width="125px" OnClick="ImageButton12_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p class="auto-style26">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" Height="57px" Visible="False" Width="1000px"></asp:TextBox>
     </p>
     <p class="auto-style20">
-        <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" Visible="False" />
+        <asp:ImageButton ID="ImageButton10" runat="server" Height="36px" ImageUrl="~/IMAGE/Write.jpg" Width="125px" Visible="False" OnClick="ImageButton10_Click" />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p class="auto-style42">
-        <strong>댓글 목록</strong></p>
-    <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="988px">
-    </asp:DetailsView>
+        <strong>&nbsp;&nbsp; Comments</strong></p>
     <p>
+        <div class="auto-style43">
+        <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" Width="1110px">
+            <ItemTemplate>
+                &nbsp;&nbsp;&quot;
+                <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' />
+                &quot;님의 댓글<br />&nbsp;&nbsp;
+                <asp:Label ID="timenowLabel" runat="server" CssClass="auto-style47" Text='<%# Eval("timenow") %>' />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Label ID="commentsLabel" runat="server" Text='<%# Eval("comments") %>' Font-Names="Arial" />
+                <br />
+                <br />
+                <hr />
+<br />
+            </ItemTemplate>
+        </asp:DataList>
+        </div>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CovDBConnectionString3 %>" SelectCommand="SELECT [id], [comments], [timenow] FROM [c_reply] WHERE ([board_idx] = @board_idx)">
+            <SelectParameters>
+                <asp:SessionParameter Name="board_idx" SessionField="updatefocus" Type="Int32" />
+            </SelectParameters>
+        </asp:SqlDataSource>
     </p>
 </asp:Content>

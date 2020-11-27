@@ -33,8 +33,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <asp:GridView ID="GridView1" runat="server" Height="32px" Width="895px"
-        GridLines="Horizontal" CssClass ="list" AllowPaging="True" AutoGenerateColumns="False"
-        PageSize ="15" DataKeyNames="idx" DataSourceID="SqlDataSource2" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" >
+        GridLines="Horizontal" CssClass ="list" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="idx" DataSourceID="SqlDataSource2" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" >
         <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
         <HeaderStyle CssClass ="header" BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
         <RowStyle CssClass ="row" BackColor="#E7E7FF" ForeColor="#4A3C8C" />

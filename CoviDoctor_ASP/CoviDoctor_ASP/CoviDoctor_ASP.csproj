@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Communication_Post\Communication_Post.aspx" />
     <Content Include="Communication_Post\Communication_Post_Main.aspx" />
+    <Content Include="Communication_Post\Communication_Post_Modify.aspx" />
     <Content Include="Communication_Post\Communication_Post_Read.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
@@ -98,6 +99,7 @@
     <Content Include="IMAGE\정보게시판.jpg" />
     <Content Include="Information_Post\Information_Post.aspx" />
     <Content Include="Information_Post\Information_Post_Main.aspx" />
+    <Content Include="Information_Post\Information_Post_Modify.aspx" />
     <Content Include="Information_Post\Information_Post_Read.aspx" />
     <Content Include="MORE\Else.aspx" />
     <Content Include="MORE\image\WHO.jpeg" />
@@ -126,6 +128,13 @@
     </Compile>
     <Compile Include="Communication_Post\Communication_Post_Main.aspx.designer.cs">
       <DependentUpon>Communication_Post_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Communication_Post\Communication_Post_Modify.aspx.cs">
+      <DependentUpon>Communication_Post_Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Communication_Post\Communication_Post_Modify.aspx.designer.cs">
+      <DependentUpon>Communication_Post_Modify.aspx</DependentUpon>
     </Compile>
     <Compile Include="Communication_Post\Communication_Post_Read.aspx.cs">
       <DependentUpon>Communication_Post_Read.aspx</DependentUpon>
@@ -157,6 +166,13 @@
     </Compile>
     <Compile Include="Information_Post\Information_Post_Main.aspx.designer.cs">
       <DependentUpon>Information_Post_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information_Post\Information_Post_Modify.aspx.cs">
+      <DependentUpon>Information_Post_Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information_Post\Information_Post_Modify.aspx.designer.cs">
+      <DependentUpon>Information_Post_Modify.aspx</DependentUpon>
     </Compile>
     <Compile Include="Information_Post\Information_Post_Read.aspx.cs">
       <DependentUpon>Information_Post_Read.aspx</DependentUpon>

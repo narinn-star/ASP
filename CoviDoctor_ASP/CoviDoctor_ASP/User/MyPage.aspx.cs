@@ -58,5 +58,23 @@ namespace CoviDoctor_ASP.User
             Label9.Text = birth;
             Con.Close();
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            string manager = "manager";
+
+            if (Session["id"].ToString() == manager)
+            {
+                Response.Redirect("ManagerPage.aspx");
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript
+                          (typeof(Page), "alert",
+                          "<script language=JavaScript>alert('권한이 없습니다.');" +
+                          "location.href('MyPage.aspx') </script>");
+
+            }
+        }
     }
 }
