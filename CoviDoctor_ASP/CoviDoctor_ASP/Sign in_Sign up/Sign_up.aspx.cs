@@ -54,7 +54,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
 
                     Con.Close();
                     Con.Open();
-                    // Label1.Text = isUser.ToString();
+                    
                     if (!isUser && pwd == TextBox5.Text)
                     {
                         string sql = "insert into userlist(id,password,gender,name,email,birth) " +
@@ -75,7 +75,8 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
                     else
                     {
                         ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                            "<script language=JavaScript>alert('not equals password! or ID');</script>"); // 동일ID존재 or password 불일치
+                            "<script language=JavaScript>alert('not equals password! or ID');</script>"); 
+                        // 동일ID존재 or password 불일치
                     }
                     Con.Close();
 
@@ -89,7 +90,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
             else
             {
                 ClientScript.RegisterStartupScript(typeof(Page), "alert", 
-                    "<script language=JavaScript>alert('not bin text!');</script>");
+                    "<script language=JavaScript>alert('정보를 모두 입력해주세요!');</script>");
 
             }
         }

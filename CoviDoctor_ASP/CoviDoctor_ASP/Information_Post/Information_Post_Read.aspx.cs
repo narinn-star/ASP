@@ -101,7 +101,7 @@ namespace CoviDoctor_ASP.Information_Post
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
+        protected void LinkButton1_Click(object sender, EventArgs e) //Delete 버튼
         {
             string connectionString = @"Server=localhost\SQLEXPRESS;Database=covDB;Trusted_Connection=True;";
             SqlConnection Con = new SqlConnection(connectionString);
@@ -145,13 +145,15 @@ namespace CoviDoctor_ASP.Information_Post
                 Cmd.ExecuteNonQuery();
 
                 Con.Close();
-                Response.Redirect("Information_Post.aspx");
+                ClientScript.RegisterStartupScript(typeof(Page), "alert",
+                 "<script language=JavaScript>alert('정상적으로 삭제되었습니다!');"
+                 + "location.href = ('Information_Post.aspx')</script>");
             }
             else
             {
                 ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                "<script language=JavaScript>alert('글이 정상적으로 삭제되었습니다!');"
-                + "location.href = 'Information_Post'</script>");
+                 "<script language=JavaScript>alert('권한이 없습니다!');"
+                 + "location.href = ('Information_Post.aspx')</script>");
             }
 
         }
@@ -194,6 +196,12 @@ namespace CoviDoctor_ASP.Information_Post
             {
                 Session["updatefocus"] = idx;
                 Response.Redirect("Information_Post_Modify.aspx");
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript(typeof(Page), "alert",
+                "<script language=JavaScript>alert('글 수정 권한이 없습니다!');"
+                + "location.href = ('Information_Post.aspx')</script>");
             }
         }
 

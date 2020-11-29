@@ -65,8 +65,6 @@ namespace CoviDoctor_ASP.General_Post
 
             Con.Close();
 
-            
-
             Label4.Text = name;
             Label5.Text = id;
             Label8.Text = date;
@@ -109,7 +107,7 @@ namespace CoviDoctor_ASP.General_Post
             Response.Redirect("Communication_Post.aspx");
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
+        protected void LinkButton1_Click(object sender, EventArgs e) //글 삭제하기 Button
         {
             string connectionString = @"Server=localhost\SQLEXPRESS;Database=covDB;Trusted_Connection=True;";
             SqlConnection Con = new SqlConnection(connectionString);
@@ -153,17 +151,19 @@ namespace CoviDoctor_ASP.General_Post
                 Cmd.ExecuteNonQuery();
 
                 Con.Close();
-                Response.Redirect("Communication_Post.aspx");
+                ClientScript.RegisterStartupScript(typeof(Page), "alert",
+                 "<script language=JavaScript>alert('정상적으로 삭제되었습니다!');"
+                 + "location.href = ('Communication_Post.aspx')</script>");
             }
             else
             {
                 ClientScript.RegisterStartupScript(typeof(Page), "alert",
-                "<script language=JavaScript>alert('글이 정상적으로 삭제되었습니다!');"
-                + "location.href = 'Information_Post'</script>");
+                "<script language=JavaScript>alert('권한이 없습니다!');"
+                + "location.href = ('Communication_Post.aspx')</script>");
             }
         }
 
-        protected void LinkButton2_Click(object sender, EventArgs e)
+        protected void LinkButton2_Click(object sender, EventArgs e) //글 수정하기 Button
         {
             string connectionString = @"Server=localhost\SQLEXPRESS;Database=covDB;Trusted_Connection=True;";
             SqlConnection Con = new SqlConnection(connectionString);
@@ -198,17 +198,22 @@ namespace CoviDoctor_ASP.General_Post
 
             if (isAuth)
             {
-               
                 Response.Redirect("Communication_Post_Modify.aspx");
+            }
+            else
+            {
+                ClientScript.RegisterStartupScript(typeof(Page), "alert",
+                "<script language=JavaScript>alert('글 수정 권한이 없습니다!');"
+                + "location.href = ('Communication_Post.aspx')</script>");
             }
         }
 
-        protected void LinkButton3_Click(object sender, EventArgs e)
+        protected void LinkButton3_Click(object sender, EventArgs e) //목록 페이지로 돌아가기 Button
         {
             Response.Redirect("Communication_Post.aspx");
         }
 
-        protected void ImageButton10_Click(object sender, ImageClickEventArgs e)
+        protected void ImageButton10_Click(object sender, ImageClickEventArgs e) // 댓글 작성하기 Button
         {
             string reply = TextBox1.Text;
             string boardidx = Request.QueryString["idx"];

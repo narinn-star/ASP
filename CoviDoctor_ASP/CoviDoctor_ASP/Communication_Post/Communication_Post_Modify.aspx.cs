@@ -80,8 +80,8 @@ namespace CoviDoctor_ASP.Communication_Post
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
 
-            Cmd.CommandText = "update c_board set date='" + Label3.Text + "', title = '" + title + "', contents='" + contents
-                + "' where idx='" + Session["updatefocus"] + "'";  
+            Cmd.CommandText = "update c_board set date='" + Label3.Text + "', title = '" + title + 
+                "', contents='" + contents + "' where idx='" + Session["updatefocus"] + "'";  
             Con.Open();
             // ExecuteNonQuery()문은 CREATE, ALTER, DROP, INSERT, UPDATE, DELETE 문을 수행할때 사용
             // 리턴 값은 영향을 받은 ROW의 갯수

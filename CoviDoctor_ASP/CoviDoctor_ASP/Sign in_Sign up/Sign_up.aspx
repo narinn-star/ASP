@@ -108,6 +108,7 @@
             </td>
             <td class="auto-style35">
                 <asp:Label ID="Label3" runat="server" Text="M 또는 F 입력"></asp:Label>
+                &nbsp;
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox7" CssClass="auto-style17" EnableClientScript="False" ErrorMessage="성별 입력"></asp:RequiredFieldValidator>
 &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox7" CssClass="auto-style17" EnableClientScript="False" ErrorMessage="M or F 입력" ValidationExpression="M|F"></asp:RegularExpressionValidator>
             </td>
@@ -128,6 +129,8 @@
                 <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
             </td>
             <td class="auto-style35">
+                <asp:Label ID="Label4" runat="server" Text="YYYY.MM.DD"></asp:Label>
+&nbsp;
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TextBox9" CssClass="auto-style17" EnableClientScript="False" ErrorMessage="생년월일 입력"></asp:RequiredFieldValidator>
             </td>
         </tr>

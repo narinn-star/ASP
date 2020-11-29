@@ -29,7 +29,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
 
-            Cmd.CommandText = "select * from userlist where id = '" + id + "' and password = '"+password+"'";
+            Cmd.CommandText = "select * from userlist where id = '" + id + "' and password = '" + password + "'";
 
             if (id != "" && password != "")
             {
@@ -51,7 +51,7 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
                     if (isUser)
                     {
                         FormsAuthentication.SetAuthCookie(id, false);
-                        //string url = FormsAuthentication.GetRedirectUrl(id, false);
+                        
                         Session["name"] = name;
                         Session["id"] = id;
                         Response.Redirect("https://localhost:44332/Home.aspx");
@@ -60,7 +60,8 @@ namespace CoviDoctor_ASP.Sign_in_Sign_up
                     {
                         // 로그인 정보가 잘못되었습니다.
                         ClientScript.RegisterStartupScript
-                           (typeof(Page), "alert", "<script language=JavaScript>alert('로그인 정보가 잘못되었거나 회원이 아닙니다.');</script>");
+                           (typeof(Page), "alert", 
+                           "<script language=JavaScript>alert('로그인 정보가 잘못되었거나 회원이 아닙니다.');</script>");
 
                     }
                 }

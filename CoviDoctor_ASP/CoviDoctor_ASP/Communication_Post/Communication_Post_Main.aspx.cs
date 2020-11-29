@@ -71,7 +71,8 @@ namespace CoviDoctor_ASP.General_Post
             Cmd.Connection = Con;
 
             Cmd.CommandText = "insert into c_board (id, name, title, contents, date, count) values " +
-                "('" + Label5.Text + "', '" + Label4.Text + "', '" + TextBox1.Text + "', '" + TextBox2.Text + "', '" + Label3.Text + "', 0)";
+                "('" + Label5.Text + "', '" + Label4.Text + "', '" + TextBox1.Text 
+                + "', '" + TextBox2.Text + "', '" + Label3.Text + "', 0)";
             Con.Open();
             // ExecuteNonQuery()문은 CREATE, ALTER, DROP, INSERT, UPDATE, DELETE 문을 수행할때 사용
             // 리턴 값은 영향을 받은 ROW의 갯수

@@ -128,10 +128,9 @@
                     <Columns>
                         <asp:BoundField DataField="idx" HeaderText="No" InsertVisible="False" ReadOnly="True" SortExpression="idx" />
                         <asp:BoundField DataField="name" HeaderText="작성자" SortExpression="name" />
-                        <asp:HyperLinkField ControlStyle-CssClass="GridViewHyperLink" DataTextField="title" 
-                            HeaderText="제목" DataNavigateUrlFormatString="Communication_Post_Read.aspx?idx={0}"
-                            DataNavigateUrlFields="idx" SortExpression="title" >
-                        <ControlStyle CssClass="GridViewHyperLink"></ControlStyle>
+                        <asp:HyperLinkField ControlStyle-CssClass="GridViewHyperLink" HeaderText ="제목" 
+                DataTextField="title" DataNavigateUrlFormatString="https://localhost:44332/Communication_Post/Communication_Post_Read.aspx?idx={0}"
+                DataNavigateUrlFields="idx" SortExpression="title" >
                         </asp:HyperLinkField>
                         <asp:BoundField DataField="count" HeaderText="조회수" SortExpression="count" />
                         <asp:BoundField DataField="date" HeaderText="작성일시" SortExpression="date" />
