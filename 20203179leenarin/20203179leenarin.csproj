@@ -68,6 +68,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\GuestBook.xml" />
+    <Content Include="App_Data\UserDB_Book.xml" />
+    <Content Include="Chapter10\GBList.aspx" />
+    <Content Include="Chapter10\GBList_1.aspx" />
+    <Content Include="Chapter10\UserDB_List.aspx" />
+    <Content Include="Chapter10\UserDB_List_1.aspx" />
     <Content Include="Chapter4\Assignment_1.aspx" />
     <Content Include="Chapter4\Assignment_2.aspx" />
     <Content Include="Chapter4\Assignment_3.aspx" />
@@ -107,12 +113,45 @@
     <Content Include="Chapter9\Pro9-2-3.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="Image\btn_clip.gif" />
+    <Content Include="Image\btn_list.gif" />
+    <Content Include="Image\btn_reset.gif" />
+    <Content Include="Image\btn_submit.gif" />
+    <Content Include="Image\btn_write.gif" />
     <Content Include="Image\WebII_Newlogo.jpg" />
     <Content Include="Web.config" />
     <Content Include="AboutMe.aspx" />
     <Content Include="Image\이나린.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter10\GBList.aspx.cs">
+      <DependentUpon>GBList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter10\GBList.aspx.designer.cs">
+      <DependentUpon>GBList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter10\GBList_1.aspx.cs">
+      <DependentUpon>GBList_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter10\GBList_1.aspx.designer.cs">
+      <DependentUpon>GBList_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter10\UserDB_List.aspx.cs">
+      <DependentUpon>UserDB_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter10\UserDB_List.aspx.designer.cs">
+      <DependentUpon>UserDB_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter10\UserDB_List_1.aspx.cs">
+      <DependentUpon>UserDB_List_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chapter10\UserDB_List_1.aspx.designer.cs">
+      <DependentUpon>UserDB_List_1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Chapter4\Assignment_1.aspx.cs">
       <DependentUpon>Assignment_1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -408,6 +447,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

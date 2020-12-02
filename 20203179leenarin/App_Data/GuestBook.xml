@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuestBook>
+  <guest title="ASP 도사" body="새로운 도전 ASP.NET" date="2019-12-15 오전 8:16:08" email="ywlee@inje.ac.kr" name="이호남" />
+  <guest title="어사 출도가" body="금주미주는 천인혈이요" date="2019-12-15 오전 8:16:08" email="chsung@inje.ac.kr" name="성춘향" />
+  <guest title="촉석루의 연회" body="Shall we dance with me!" date="2019-12-15 오전 8:16:08" email="ngju@inje.ac.kr" name="주논개" />
+  <guest name="이나린" email="" date="2020-11-23 오전 10:39:52" title="Hi" body="Hello" />
+  <guest name="이나린" email="20203179" date="2020-11-23 오전 10:41:11" title="Woww" body="Hi" />
+</GuestBook>

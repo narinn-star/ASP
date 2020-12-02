@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserDB_BOOK>
+  <User name="정보통" id="btjung" email="btjung@inje.ac.kr" sex="M" mileage="2800" level="C" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="성춘향" id="chsung" email="chsung@inje.ac.kr" sex="F" mileage="3300" level="B" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="홍길동" id="gdhong" email="gdhong@inje.ac.kr" sex="M" mileage="4200" level="A" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="이호남" id="hnlee" email="hnlee@inje.ac.kr" sex="M" mileage="3500" level="B" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="허윤정" id="hyun" email="hyun@inje.ac.kr" sex="F" mileage="3500" level="B" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="이몽룡" id="mylee" email="mylee@inje.ac.kr" sex="M" mileage="4000" level="A" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="연놀부" id="nbyeon" email="nbyeon@inje.ac.kr" sex="M" mileage="2600" level="C" date="2020-11-10 오후 12:20:36">
+  </User>
+  <User name="이나린" email="test@naver.com" date="2020-11-23 오전 11:16:38" id="20203179" sex="M" level="A" mileage="4200" />
+</UserDB_BOOK>
